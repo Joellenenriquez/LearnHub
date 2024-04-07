@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub</title>
+
+    <!-- google fonts csn link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- form js link -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+        <script type="text/javascript">
+        (function(){
+        emailjs.init({
+            publicKey: "G4oduhiAsTf_PS_5D",
+        });
+        })();
+    </script>
+
+</head>
+    <body>
+
+        <!-- header section starts -->
+        <header>
+
+            <div id="menu" class="fas fa-bars"></div>
+
+            <a href="#" class="logo"><i class="fas fa-user-graduate"></i>LearnHub</a>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a class="active" href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#course">course</a></li>
+                    <li><a href="#teacher">teacher</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#team"></a></li>
+                </ul>
+            </nav>
+
+            <div id="login" class="fas fa-user-circle"></div>
+
+        </header>
+
+        <!-- header section ends -->
+
+        <!-- login form -->
+
+        <div class="login-form">
+
+            <form action="">
+                <h3>Login</h3>
+                <input type="email" placeholder="username" class="box" required>
+                <input type="password" placeholder="password" class="box" required>
+                <p>Forgot password? <a href="#">Click here</a></p>
+                <p>Don't have an account? <a href="#">Register now</a></p>
+                <input type="submit" class="btn" value="login">
+                <i class="fas fa-times"></i>
+            </form>
+
+        </div>
+
+        <!-- home section starts -->
+        <section class="home" id="home">
+            <h1>Welcome to LearnHub</h1>
+            <p>Flexible and personalized
+                learning for your kids. <br> Study at your own pace</p>
+            <a href="#about"><button class="btn">Get started</button></a>
+        
+            <div class="shape"></div>    
+        </section>
+
+        <!-- home section ends -->
+
+
+        <!-- about section starts -->
+        <section class="about" id="about">
+
+            <div class="image">
+                <img src="./images/about.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Our mission</h3>
+                <p>LearnHub's mission is to inspire kids to love learning.</p>
+                <p>We believe the best way to do that is by linking learning to kids interests, connecting them with others who share those interests and giving them the autonomy to pick their own path. We make learning fun, social and self-directed.</p>
+                
+                <br>
+                
+                <div class="border"></div>
+
+                <h3>Our Values</h3>
+                <p>We believe all kids should be at the center of their learning.</p>
+                <p>We listen to kids, respect them and stand with them. We partner with kids, their families and educators to unlock opportunities for all kids.</p>
+                <p>In order to stand with learners, we all must be lifelong learners and nurture the kid inside.</p>
+                
+                <a href="#course"><button class="btn">learn more</button></a>
+            </div>
+
+        </section>
+
+        <!-- about section ends -->
+
+
+        <!-- course section starts -->
+        <section class="course" id="course">
+
+            <h1 class="heading">our popular courses</h1>
+
+            <div class="box-container">
+
+                <!-- course 1 -->
+                <div class="box">
+                    <img src="./images/kid-studying2.jpg" alt="">
+                    <h3 class="price">$188</h3>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                        <a href="#" class="title">coding for beginners</a>
+                        <p>Weekly coding with new projects every week</p>
+                            <div class="info">
+                                <h3> <i class="far fa-clock"></i> 2 hours</h3>
+                                <h3> <i class="far fa-calendar-alt"></i> 6 months</h3>
+                                <h3> <i class="fas fa-book"></i> 12 modules</h3>
+                            </div>
+                    </div>
+                </div>
+
+                <!-- course 2 -->
+                <div class="box">
+                    <img src="./images/Boy-Studying2.jpg" alt="">
+                    <h3 class="price">$51</h3>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                        <a href="#" class="title">Drawing & Sketching</a>
+                        <p>Learn sketching for young artists</p>
+                            <div class="info">
+                                <h3> <i class="far fa-clock"></i> 1 hour</h3>
+                                <h3> <i class="far fa-calendar-alt"></i> 5 months</h3>
+                                <h3> <i class="fas fa-book"></i> 5 modules</h3>
+                            </div>
+                    </div>
+                </div>
+
+                <!-- course 3 -->
+                <div class="box">
+                    <img src="./images/course3.PNG" alt="">
+                    <h3 class="price">$32</h3>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                        <a href="#" class="title">Philosophy</a>
+                        <p>Critical thinking</p>
+                            <div class="info">
+                                <h3> <i class="far fa-clock"></i> 50 mins</h3>
+                                <h3> <i class="far fa-calendar-alt"></i> 4 months</h3>
+                                <h3> <i class="fas fa-book"></i> 4 modules</h3>
+                            </div>
+                    </div>
+                </div>
+
+                <!-- course 4 -->
+                <div class="box">
+                    <img src="./images/course4.PNG" alt="">
+                    <h3 class="price">$57</h3>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                        <a href="#" class="title">History</a>
+                        <p>Mysteries & Unusual Stories</p>
+                            <div class="info">
+                                <h3> <i class="far fa-clock"></i> 2 hours</h3>
+                                <h3> <i class="far fa-calendar-alt"></i> 6 months</h3>
+                                <h3> <i class="fas fa-book"></i> 12 modules</h3>
+                            </div>
+                    </div>
+                </div>
+
+                <!-- course 5 -->
+                <div class="box">
+                    <img src="./images/course5.PNG" alt="">
+                    <h3 class="price">$119</h3>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                        <a href="#" class="title">Personal Finance for teens</a>
+                        <p>weekly financial topics</p>
+                            <div class="info">
+                                <h3> <i class="far fa-clock"></i> 1 hour</h3>
+                                <h3> <i class="far fa-calendar-alt"></i> 6 months</h3>
+                                <h3> <i class="fas fa-book"></i> 10 modules</h3>
+                            </div>
+                    </div>
+                </div>
+
+                <!-- course 6 -->
+               <div class="box">
+                    <img src="./images/course6.PNG" alt="">
+                    <h3 class="price">$23</h3>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                        <a href="#" class="title">Multiplication boot camp</a>
+                        <p>Solve & Memorize Times Tables</p>
+                            <div class="info">
+                                <h3> <i class="far fa-clock"></i> 1 hour</h3>
+                                <h3> <i class="far fa-calendar-alt"></i> 2 months</h3>
+                                <h3> <i class="fas fa-book"></i> 1 module</h3>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="login-now">
+                <a href="#contact"><button class="btn">Enroll Now!</button></a>
+            </div>  
+
+        </section>
+
+        <!-- course section ends -->
+
+        <!-- teacher section starts -->
+        <section class="teacher" id="teacher">
+
+            <h1 class="heading">our expert teachers</h1>
+            <p>Composed of different people with unique experiences and perspectives, we are all invested in building a future where kids have access to learn what they love.</p>
+            <a href="#team"><button class="btn">learn more</button></a>
+
+        </section>
+
+        <!-- introduction section starts -->
+
+        <section class="team" id="team">
+
+            <h1 class="heading">Meet our team</h1>
+
+            <div class="box-container">
+
+                <!-- introduction 1 -->
+                <div class="box">
+                    <img src="./images/jen2.PNG" alt="">
+                    
+                    <div class="content">
+                        
+                        <a href="#" class="title">People Operations Coordinator</a>
+                            <p>Jennie Kim</p>
+                            <div class="intro">
+                                <p><q>When I started at LearnHub in customer support, I had no idea what I wanted to do with my career. My manager and teammates supported my exploration and I'm now in a department that is exactly what I was meant to do.</q></p>
+                            </div>
+                    </div>
+                </div>
+
+                <!-- introduction 2 -->
+
+                <div class="box">
+                    <img src="./images/miley.jpg" alt="">
+                    
+                    <div class="content">
+                        
+                        <a href="#" class="title">Content Policy Lead</a>
+                            <p>Miley Cyrus</p>
+                            <div class="intro">
+                                <p><q>As part of my role, I get to work with subject-matter experts who help ensure that the content available on Outschool is accurate, free of bias, and supports multiple perspectives, particularly those of marginalized groups... Amplifying the voices of these experts by bringing them to Outschool and sharing their work with educators inspires me.</q></p>
+                            </div>
+                    </div>
+                </div>
+
+                <!-- introduction 3 -->
+                <div class="box">
+                    <img src="./images/dua.PNG" alt="">
+                    
+                    <div class="content">
+                        
+                        <a href="#" class="title">Software Engineer</a>
+                            <p>Dua Lipa</p>
+                            <div class="intro">
+                                <p><q>LearnHub's engineering culture is a collaborative one. Since we are a team of human beings, we logically value the balance that empathy, kindness, and compassion bring to technical processes.</q></p>
+                            </div>
+                    </div>
+                </div>
+
+
+                <!-- introduction 4 -->
+                <div class="box">
+                    <img src="./images/Anne.PNG" alt="">
+                    
+                    <div class="content">
+                        
+                        <a href="#" class="title">Creative Strategist</a>
+                            <p>Anne Hathaway</p>
+                            <div class="intro">
+                                <p><q>It's fast-paced, but boundaries are respected, and leaders go out of their way to encourage vacations and mental health breaks. You're encouraged to be honest about your stress level and workload and to ask for help when you need it. That authenticity is seen as a strength, not a weakness, unlike so many places.</q></p>
+                            </div>
+                    </div>
+
+                </div>
+                
+                <!-- introduction section ends -->
+
+            </div>
+
+        </section>
+
+
+
+
+        <!-- introduction section ends -->
+
+
+        <!-- teacher section ends -->
+
+
+        <!-- contact section starts -->
+        <section class="contact" id="contact">
+
+            <h1 class="heading">contact us</h1>
+
+            <div class="row">
+
+                <form ref="{form} onsubmit={sendMail}">
+                    <input type="text" id="name" placeholder="Full name" class="box" required>
+                    <input type="email" id="email" placeholder="Your email" class="box" required>
+                    <input type="text" id="address" placeholder="Your Address" class="box" required>
+                    <input type="text" id="phone" placeholder="Your number" class="box" required>
+                    <textarea type="text" id="message" cols="30" rows="10" class="box address" placeholder="Your address" required></textarea>
+                    <button type="submit" onclick="sendMail();" class="btn">Send now</button>
+                </form>
+
+
+                <div class="image">
+                    <img src="./images/contact1.png" alt="">
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!-- contact section ends -->
+
+
+        <!-- footer section starts -->
+        <div class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>branch locations</h3>
+                    <a href="#">Philippines</a>
+                    <a href="#">USA</a>
+                    <a href="#">France</a>
+                    <a href="#">Thailand</a>
+                </div>
+
+
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#">home</a>
+                    <a href="#">about</a>
+                    <a href="#">course</a>
+                    <a href="#">teachers</a>
+                    <a href="#">contact</a>
+                </div>
+
+
+                <div class="box">
+                    <h3>contact info</h3>
+                    <p> <i class="fas fa-map-marker-alt"></i> Cebu It Park, 6000 Cebu, Philippines</p>
+                    <p> <i class="fas fa-envelope"></i>LearnHub@gmail.com</p>
+                    <p> <i class="fas fa-phone"></i>+123-456-7890</p>
+                </div>
+
+
+
+            </div>
+
+            <h1 class="credit">created by <a href="#"> Jo Enriquez</a> all rights reserved.</h1>
+
+        </div>
+        
+        <!-- footer section ends -->
+
+
+        <!-- jquery cdn link -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <!-- custom js file link -->
+        <script src="script.js"></script>
+    </body>
+
+</html>
